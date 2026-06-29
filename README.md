@@ -18,7 +18,7 @@ Wir engagieren uns ehrenamtlich für die Kinder, deren Familien sowie die Mitarb
 
 Der Verein verfolgt ausschließlich und unmittelbar gemeinnützige Zwecke im Sinne der §§ 51–68 der Abgabenordnung (AO) und ist selbstlos tätig.
 
-Impressum
+## Impressum
 
 Förderverein "Ketschenbacher Waldwichtel" e.V.
 Sonnenweg 4a
