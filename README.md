@@ -1,6 +1,4 @@
-# KetschenbacherWaldwichtel.github.io
-
-Förderverein „Ketschenbacher Waldwichtel“ e.V.
+## Förderverein „Ketschenbacher Waldwichtel“ e.V.
 
 Offizielle Website des gemeinnützigen Fördervereins **„Ketschenbacher Waldwichtel“ e.V.**
 
