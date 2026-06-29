@@ -1,11 +1,373 @@
+```html
 <!DOCTYPE html>
 <html lang="de">
 <head>
     <meta charset="UTF-8">
-    <title>Meine Website</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Förderverein "Ketschenbacher Waldwichtel" e.V.</title>
+
+    <style>
+        :root{
+            --bg:#EAE6E5;
+            --green:#AEAB3F;
+            --red:#E7392E;
+            --brown:#96661C;
+            --text:#2C0700;
+            --white:#ffffff;
+        }
+
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+        }
+
+        html{
+            scroll-behavior:smooth;
+        }
+
+        body{
+            background:var(--bg);
+            color:var(--text);
+            font-family: "Segoe UI", Arial, sans-serif;
+            line-height:1.7;
+        }
+
+        .container{
+            width:min(1100px,92%);
+            margin:auto;
+        }
+
+        header{
+            padding:60px 20px;
+            text-align:center;
+        }
+
+        .logo{
+            width:180px;
+            max-width:70%;
+            margin-bottom:25px;
+        }
+
+        h1{
+            font-size:3rem;
+            margin-bottom:10px;
+            font-weight:700;
+        }
+
+        .subtitle{
+            color:var(--brown);
+            font-size:1.3rem;
+            margin-bottom:40px;
+        }
+
+        section{
+            margin:70px 0;
+        }
+
+        h2{
+            text-align:center;
+            color:var(--brown);
+            font-size:2rem;
+            margin-bottom:35px;
+            position:relative;
+        }
+
+        h2::after{
+            content:"";
+            width:80px;
+            height:4px;
+            background:var(--green);
+            display:block;
+            margin:12px auto 0;
+            border-radius:5px;
+        }
+
+        .card{
+            background:white;
+            padding:35px;
+            border-radius:22px;
+            box-shadow:0 10px 30px rgba(0,0,0,.08);
+        }
+
+        .card p{
+            font-size:1.08rem;
+        }
+
+        .features{
+            display:grid;
+            grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+            gap:25px;
+            margin-top:30px;
+        }
+
+        .feature{
+            background:white;
+            border-radius:20px;
+            padding:30px;
+            text-align:center;
+            box-shadow:0 8px 25px rgba(0,0,0,.08);
+            transition:.3s;
+        }
+
+        .feature:hover{
+            transform:translateY(-8px);
+        }
+
+        .icon{
+            font-size:3rem;
+            margin-bottom:15px;
+        }
+
+        .feature h3{
+            margin-bottom:10px;
+            color:var(--brown);
+        }
+
+        .cta{
+            background:var(--green);
+            color:white;
+            border-radius:25px;
+            padding:45px;
+            text-align:center;
+        }
+
+        .cta p{
+            max-width:700px;
+            margin:auto;
+            margin-bottom:25px;
+            font-size:1.1rem;
+        }
+
+        .button{
+            display:inline-block;
+            padding:14px 30px;
+            background:var(--red);
+            color:white;
+            text-decoration:none;
+            border-radius:50px;
+            font-weight:bold;
+            transition:.3s;
+        }
+
+        .button:hover{
+            transform:scale(1.05);
+        }
+
+        .contact{
+            text-align:center;
+        }
+
+        .mail{
+            display:inline-block;
+            margin-top:15px;
+            color:var(--red);
+            font-size:1.2rem;
+            text-decoration:none;
+            font-weight:bold;
+        }
+
+        footer{
+            background:var(--brown);
+            color:white;
+            margin-top:80px;
+            padding:50px 0;
+        }
+
+        footer h3{
+            margin-bottom:20px;
+        }
+
+        footer p{
+            margin-bottom:10px;
+        }
+
+        @media(max-width:768px){
+
+            h1{
+                font-size:2.2rem;
+            }
+
+            .subtitle{
+                font-size:1.1rem;
+            }
+
+            section{
+                margin:50px 0;
+            }
+
+            .cta{
+                padding:30px;
+            }
+
+        }
+
+    </style>
+
 </head>
+
 <body>
-    <h1>Hallo Welt!</h1>
-    <p>Meine erste Website mit GitHub Pages.</p>
+
+<header class="container">
+
+    <!-- LOGO HIER ERSETZEN -->
+    <img src="logo.png" alt="Logo Förderverein" class="logo">
+
+    <h1>Förderverein<br>"Ketschenbacher Waldwichtel" e.V.</h1>
+
+    <p class="subtitle">
+        Gemeinsam für unsere Kinder.
+    </p>
+
+</header>
+
+<main class="container">
+
+<section>
+
+    <h2>Über uns</h2>
+
+    <div class="card">
+
+        <p>
+            Der Förderverein <strong>"Ketschenbacher Waldwichtel" e.V.</strong> unterstützt den Kindergarten Ketschenbach
+            dort, wo öffentliche Mittel nicht ausreichen. Gemeinsam mit Eltern, Familien und Unterstützern ermöglichen wir
+            Projekte, Anschaffungen und Aktionen, die den Kindergartenalltag bereichern und den Kindern zugutekommen.
+        </p>
+
+        <br>
+
+        <p>
+            Unser Ziel ist es, die Gemeinschaft zu stärken und den Kindern eine noch schönere Zeit im Kindergarten
+            zu ermöglichen. Jede Unterstützung – ob durch eine Mitgliedschaft, Spenden oder persönliches Engagement –
+            hilft dabei, dieses Ziel zu erreichen.
+        </p>
+
+    </div>
+
+</section>
+
+<section>
+
+<h2>Unsere Ziele</h2>
+
+<div class="features">
+
+<div class="feature">
+
+<div class="icon">🌳</div>
+
+<h3>Projekte fördern</h3>
+
+<p>
+Wir unterstützen besondere Projekte und Veranstaltungen für die Kinder.
+</p>
+
+</div>
+
+<div class="feature">
+
+<div class="icon">🎨</div>
+
+<h3>Anschaffungen ermöglichen</h3>
+
+<p>
+Neue Spielgeräte, Materialien und Ausstattung für den Kindergarten.
+</p>
+
+</div>
+
+<div class="feature">
+
+<div class="icon">❤️</div>
+
+<h3>Gemeinschaft stärken</h3>
+
+<p>
+Wir fördern das Miteinander von Kindern, Eltern und Erziehern.
+</p>
+
+</div>
+
+</div>
+
+</section>
+
+<section>
+
+<div class="cta">
+
+<h2 style="color:white;">Mitmachen</h2>
+
+<p>
+
+Ob als Mitglied, durch eine Spende oder tatkräftige Unterstützung bei unseren Veranstaltungen –
+jede Hilfe trägt dazu bei, den Kindergartenalltag unserer Kinder noch schöner zu gestalten.
+
+</p>
+
+<a class="button" href="mailto:fv.ketschenbacherwaldwichtel@web.de">
+Jetzt Kontakt aufnehmen
+</a>
+
+</div>
+
+</section>
+
+<section class="contact">
+
+<h2>Kontakt</h2>
+
+<p>
+Wir freuen uns auf Ihre Nachricht.
+</p>
+
+<a class="mail" href="mailto:fv.ketschenbacherwaldwichtel@web.de">
+fv.ketschenbacherwaldwichtel@web.de
+</a>
+
+</section>
+
+</main>
+
+<footer>
+
+<div class="container">
+
+<h3>Impressum</h3>
+
+<p><strong>Förderverein "Ketschenbacher Waldwichtel" e.V.</strong></p>
+
+<p>
+Sonnenweg 4a<br>
+96465 Neustadt bei Coburg
+</p>
+
+<p>
+Vereinsregister: VR 200809<br>
+Registergericht: Amtsgericht Coburg
+</p>
+
+<p>
+<strong>Vertreten durch:</strong><br>
+Vorsitzende: Alexandra Knauer<br>
+Stellvertretende Vorsitzende: Sarah Dehnelt<br>
+Kassiererin: Janina Stürmer<br>
+Schriftführerin: Kathrin Palm
+</p>
+
+<p>
+<strong>Kontakt</strong><br>
+E-Mail:
+<a href="mailto:fv.ketschenbacherwaldwichtel@web.de" style="color:white;">
+fv.ketschenbacherwaldwichtel@web.de
+</a>
+</p>
+
+</div>
+
+</footer>
+
 </body>
 </html>
+```
