@@ -2,7 +2,7 @@
 
 Offizielle Website des gemeinnützigen Fördervereins **„Ketschenbacher Waldwichtel“ e.V.**
 
-Die Website befindet sich aktuell im Aufbau und dient als zentrale Anlaufstelle für Informationen über den Verein und enthält die gesetzlich erforderlichen Angaben.
+Die Website dient als zentrale Anlaufstelle für Informationen über den Verein und enthält die gesetzlich erforderlichen Angaben.
 
 ## Künftige Inhalte
 
