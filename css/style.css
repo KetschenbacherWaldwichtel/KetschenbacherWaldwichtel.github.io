@@ -46,11 +46,9 @@ img{
 }
 
 header{
-
-    padding:70px 0;
-
-    background:
-    linear-gradient(180deg,#f6f3f2 0%,#EAE6E5 100%);
+    background:linear-gradient(135deg,#F8F5F4 0%,#EAE6E5 100%);
+    padding:80px 0 70px;
+    border-bottom:4px solid var(--green);
 }
 
 .header{
@@ -186,25 +184,18 @@ h2::after{
 }
 
 .feature{
-
     background:white;
-
-    border-radius:var(--radius);
-
+    border-radius:24px;
     padding:35px;
-
     text-align:center;
-
-    box-shadow:var(--shadow);
-
-    transition:.25s;
-
+    box-shadow:0 12px 30px rgba(0,0,0,.08);
+    transition:all .3s ease;
+    border:1px solid rgba(0,0,0,.04);
 }
 
 .feature:hover{
-
-    transform:translateY(-8px);
-
+    transform:translateY(-10px);
+    box-shadow:0 20px 45px rgba(0,0,0,.15);
 }
 
 .icon{
@@ -224,31 +215,21 @@ h2::after{
 }
 
 .button{
-
     display:inline-block;
-
     margin-top:20px;
-
-    padding:14px 32px;
-
+    padding:15px 34px;
     border-radius:999px;
-
     background:var(--red);
-
     color:white;
-
     font-weight:600;
-
-    transition:.25s;
-
+    transition:.3s;
+    box-shadow:0 8px 20px rgba(231,57,46,.25);
 }
 
 .button:hover{
-
     transform:translateY(-3px);
-
-    box-shadow:0 12px 20px rgba(0,0,0,.15);
-
+    background:#d92d24;
+    box-shadow:0 14px 30px rgba(231,57,46,.35);
 }
 
 .cta{
