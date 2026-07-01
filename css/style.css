@@ -45,6 +45,10 @@ img{
     display:block;
 }
 
+main{
+    padding-top:50px;
+}
+
 header{
     background:linear-gradient(135deg,#F8F5F4 0%,#EAE6E5 100%);
     padding:80px 0 70px;
