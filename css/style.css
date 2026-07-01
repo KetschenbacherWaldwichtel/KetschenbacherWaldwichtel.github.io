@@ -31,10 +31,6 @@ body{
     margin:auto;
 }
 
-.section-large{
-    margin-top:160px;
-}
-
 section{
     margin:110px 0;
 }
@@ -47,10 +43,6 @@ a{
 img{
     max-width:100%;
     display:block;
-}
-
-main{
-    padding-top:50px;
 }
 
 header{
@@ -71,15 +63,6 @@ header{
 
     flex-wrap:wrap;
 
-}
-.eyebrow{
-    color:var(--green);
-    font-weight:700;
-    text-transform:uppercase;
-    letter-spacing:2px;
-    font-size:.9rem;
-    margin-bottom:12px;
-    display:block;
 }
 
 .logo{
