@@ -32,7 +32,7 @@ body{
 }
 
 section{
-    margin:90px 0;
+    margin:110px 0;
 }
 
 a{
@@ -67,7 +67,7 @@ header{
 
 .logo{
 
-    width:180px;
+    width:210px;
 
     transition:.3s;
 
@@ -156,15 +156,10 @@ h2::after{
 }
 
 .card{
-
     background:white;
-
-    border-radius:var(--radius);
-
-    padding:40px;
-
-    box-shadow:var(--shadow);
-
+    border-radius:28px;
+    padding:45px;
+    box-shadow:0 15px 35px rgba(0,0,0,.08);
 }
 
 .card p{
