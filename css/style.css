@@ -31,6 +31,10 @@ body{
     margin:auto;
 }
 
+.section-large{
+    margin-top:160px;
+}
+
 section{
     margin:110px 0;
 }
