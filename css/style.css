@@ -65,6 +65,16 @@ header{
 
 }
 
+.eyebrow{
+    color:var(--green);
+    font-weight:700;
+    text-transform:uppercase;
+    letter-spacing:2px;
+    font-size:.9rem;
+    margin-bottom:12px;
+    display:block;
+}
+
 .logo{
     width:210px;
     transition:.3s;
